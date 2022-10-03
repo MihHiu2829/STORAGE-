@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Login app"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:autofillHints="Enter your phone"
+        android:hint="Enter your phone"
+        android:background="@drawable/layout_border_3dp"
+        android:inputType="number"
+        android:padding="10dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:id="@+id/edt_Phone"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:autofillHints="Enter your pass"
+        android:hint="Enter your phone"
+        android:background="@drawable/layout_border_3dp"
+        android:inputType="numberPassword"
+        android:padding="10dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:id="@+id/edt_Pass"
+        android:layout_height="wrap_content"/>
+
+
+    <TableRow android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:gravity="end"
+        android:layout_width="match_parent">
+
+        <CheckBox
+            android:layout_height="match_parent"
+            android:textSize="12dp"
+            android:id="@+id/cb_acc"
+            android:text="remember your account"
+            android:layout_width="wrap_content"/>
+
+
+
+    </TableRow>
+</LinearLayout>

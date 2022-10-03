@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/main_bg"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/Name_stories"
+            android:text="Truyen cuoi"
+            android:textSize="22dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="520dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Một lão nhà giàu có ba anh đầy tớ, nhưng mỗi anh một tính, anh thì rất cẩn thận, anh thì rất lo xa, còn một anh thì rất lễ phép. Lão lấy làm đắc ý lắm.
+
+Một hôm, cậu con cả lão ngã xuống ao, anh cẩn thận trông thấy, chạy về thưa với chủ:
+
+– Thưa ông, cậy cả nhà ngã xuống ao, xin ông cho phép con đi vớt cậu lên ạ!  Vớt lên được, thì cậu cả đã chết ngoẻo rồi. Lão liền vác gậy đuổi, anh cẩn thận chạy biến. Lão sai anh lo xa đi mua áo quan về liệm. Ðược một lúc, anh này mang về hai cái. Thấy thế ông chủ trừng mắt:
+
+– Tại sao mua những hai cái, thằng kia?  Anh này trả lời:
+
+– ấy, con mua phòng xa, nhỡ cậu hai có chết đuối thì có cái dùng ngay.  Lão lại vác gậy đuổi đi.  Chỉ còn anh lễ phép vẫn được lòng chủ. Một hôm, anh ta cùng một người nữa cáng chủ nhà đi chơi. Ðến chỗ lội bùn ngập đến lưng ống chân mà anh ta vẫn vui vẻ không một lời phàn nàn. Thấy thế ông chủ khen:
+
+– Anh khá lắm, biết chịu khó. Cứ cố đi rồi đến tết ta sẽ may cho bộ cánh.  Vừa nói đến đấy thì anh đầy tớ dặt cáng xuống giữa đống bùn khoanh tay lễ phép nói:
+
+– Con xin đa tạ ông!"
+
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:id="@+id/content_stories"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+        </ScrollView>
+        <TableRow
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_width="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:text="Back"
+                android:id="@+id/bt_back"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:text="Ke tiep"
+                android:id="@+id/bt_next"
+                android:layout_height="wrap_content"/>
+
+        </TableRow>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="start"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/ln_topic"
+                android:padding="5dp"
+                android:layout_height="match_parent">
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
