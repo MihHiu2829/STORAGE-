@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_height="100dp"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="5dp"
+    android:layout_width="match_parent">
+
+    <TableRow android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="2dp"
+        android:layout_margin="5dp"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="170dp"
+            android:src="@drawable/anhban02"
+            android:id="@+id/iv_photo"
+            android:layout_height="match_parent"/>
+
+
+        <TextView android:layout_height="match_parent"
+            android:text="Anh bạn à"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:id="@+id/tv_topicStories"
+            android:layout_width="200dp"/>
+
+    </TableRow>
+
+</androidx.cardview.widget.CardView>
